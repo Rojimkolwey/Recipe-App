@@ -71,20 +71,21 @@ header button {
   border-radius: 3px;
   box-shadow: 0 0 10px 2px #3333331a;
   margin: 1.5rem;
+  position: relative;
 }
 .meal-header {
-  position: relative;
 }
 
 .meal-header .random {
-  position: absolute;
-  background-color: black;
+  /* position: absolute; */
+  background-color:white;
   top: 10px;
   padding: 0.25rem 1rem;
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
 .meal-header img {
+  position: relative;
   height: 200px;
   width: 100%;
   object-fit: cover;
@@ -95,6 +96,7 @@ header button {
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
+  position: absolute;
 }
 .meal-header h4 {
   margin: 0;
